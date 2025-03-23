@@ -1,4 +1,4 @@
-/* RESET & BASE STYLES */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   line-height: 1.6;
 }
 
-/* HERO WRAPPER */
+
 .hero-wrapper {
   background: url("images/background1.jpg") no-repeat center center;
   background-size: cover;
@@ -34,7 +34,7 @@ body {
   z-index: 1;
 }
 
-/* NAVBAR */
+
 .navbar {
   padding: 20px 40px;
 }
@@ -105,7 +105,7 @@ body {
   background-color: #1e3acc;
 }
 
-/* HERO SECTION */
+
 .feature-container {
   display: flex;
   justify-content: space-between;
@@ -152,7 +152,7 @@ body {
   background-color: #444;
 }
 
-/* TRUSTED BY LOGOS */
+
 .trusted-by {
   margin-top: 50px;
 }
@@ -185,7 +185,7 @@ body {
 .ken42-logo     { background-image: url("images/ken42 (1).png"); }
 .optamile-logo  { background-image: url("images/opti.png"); }
 
-/* FEATURE CARDS */
+
 .feature-right {
   flex: 1 1 45%;
   max-width: 45%;
@@ -214,7 +214,6 @@ body {
   color: #dddddd;
 }
 
-/* CONTENT SECTION */
 .content {
   background: url("images/Figure.png") no-repeat center center;
   background-size: cover;
@@ -238,7 +237,6 @@ body {
   z-index: 1;
 }
 
-/* INNOVATION & TECHNOLOGY SECTIONS */
 .innovation-section, .technology-section {
   margin-bottom: 60px;
 }
@@ -307,7 +305,6 @@ body {
   text-decoration: none;
 }
 
-/* ABOUT SECTION */
 .about-section {
   margin-top: 60px;
   display: flex;
@@ -355,7 +352,6 @@ body {
   border-radius: 12px;
 }
 
-/* WHY CHOOSE SECTION */
 .why-choose {
   padding: 100px 60px;
   background: radial-gradient(circle at center, #0a0a0a, #000);
@@ -428,7 +424,7 @@ body {
   font-size: 0.95rem;
   color: #cccccc;
 }
-/* CONTACT / CTA SECTION */
+
 .contact-section {
   padding: 80px 60px;
   background: #000;
@@ -612,7 +608,7 @@ body {
 .footer-links a:hover {
   color: #fff;
 }
-/* Hamburger Icon */
+
 .hamburger {
   display: none;
   flex-direction: column;
@@ -629,7 +625,7 @@ body {
   border-radius: 2px;
 }
 
-/* Side Menu */
+
 .side-menu {
   position: fixed;
   top: 0;
@@ -668,7 +664,7 @@ body {
   right: 0;
 }
 
-/* Close Button */
+
 .close-btn {
   position: absolute;
   top: 15px;
@@ -678,10 +674,6 @@ body {
   color: #fff;
 }
 
-
-/* =========================
-   RESPONSIVE BREAKPOINTS
-=========================== */
 
 @media (max-width: 1024px) {
   .feature-container, .about-container {
